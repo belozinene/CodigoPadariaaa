@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # --- CONFIGURAÇÃO ---
 # Se for rodar no PyCharm, mude para: TOKEN = '8625088250:AAHFovlQ_1_oQZOTy-YrAdNJx7U5zA2kW9w'
 # Se for mandar para o Railway, deixe como está abaixo:
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv(git add .)
 
 # Dicionário de produtos (Dica: use nomes sem acento para facilitar a digitação no dia a dia)
 PRODUTOS = {
